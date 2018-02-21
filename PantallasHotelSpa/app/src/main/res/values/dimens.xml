@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">10pt</dimen>
+    <dimen name="padding_space">30sp</dimen>
+    <dimen name="padding_table">5dp</dimen>
+    <dimen name="size_table">8pt</dimen>
+    <dimen name="size_image">200dp</dimen>
+    <dimen name="image_size_view">200dp</dimen>
+    <dimen name="size_margin">10dp</dimen>
+    <dimen name="tittle_size">25pt</dimen>
+    <dimen name="dimen_padding_2">60sp</dimen>
+</resources>

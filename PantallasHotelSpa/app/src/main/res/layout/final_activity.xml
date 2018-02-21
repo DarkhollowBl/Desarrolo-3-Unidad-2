@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10pt"
+    android:paddingTop="30pt">
+    <TextView
+        android:id="@+id/titulo_comprobante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voucher"
+        android:textSize="@dimen/tittle_size"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_boton_pdf"
+        android:text="@string/download_voucher"
+        android:textSize="@dimen/text_size"
+        android:paddingTop="30pt"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton_pdf_comprobante"
+        android:textSize="@dimen/text_size"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/pdf"
+        android:layout_marginTop="30pt"
+        />
+
+</LinearLayout>
